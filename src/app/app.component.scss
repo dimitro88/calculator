@@ -1,0 +1,60 @@
+.body-wrapper {
+  border: 2px solid black;
+  width: 200px;
+  height: 300px;
+  .result-input {
+    input {
+      width: 200px;
+      height: 50px;
+      box-sizing: border-box;
+      background-color: black;
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+      text-align: right;
+      padding-right: 10px;
+    }
+  }
+
+  .operations {
+    button {
+      width: 50px;
+      height: 50px;
+      background: goldenrod;
+      font-size: 16px;
+      font-weight: bold;
+      &:focus {
+        outline: 0;
+      }
+    }
+  }
+
+  .numbers-and-result-wrapper {
+    display: flex;
+    flex-direction: row;
+    .numbers {
+      button {
+        width: 50px;
+        height: 50px;
+        font-size: 16px;
+        background-color: bisque;
+        font-weight: bold;
+        &:focus {
+          outline: 0;
+        }
+      }
+    }
+    .result {
+      button {
+        width: 50px;
+        height: 200px;
+        font-size: 16px;
+        background: goldenrod;
+        font-weight: bold;
+        &:focus {
+          outline: 0;
+        }
+      }
+    }
+  }
+}
